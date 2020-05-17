@@ -40,17 +40,17 @@ This is meant as simple, minimal example of how to integrate DSO from a differen
 
 For real-time camera input, use these commands in two terminals. 
 
-```shell
-	terminal 1:
-	roscore
+```
+terminal 1:
+roscore
 	
-	terminal 2:
-	cd  ~/catkin_ws
-	source devel/setup.bash
-	rosrun dso_ros dso_ros image:=image_raw \
-		calib=XXXXX/camera.txt \
-		gamma=XXXXX/pcalib.txt \
-		vignette=XXXXX/vignette.png \
+terminal 2:
+cd  ~/catkin_ws
+source devel/setup.bash
+rosrun dso_ros dso_ros image:=image_raw \
+	calib=XXXXX/camera.txt \
+	gamma=XXXXX/pcalib.txt \
+	vignette=XXXXX/vignette.png \
 ```
 
 For EUROC dataset (example MH_05), use these commands in three terminals.
