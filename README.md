@@ -36,7 +36,7 @@ This is meant as simple, minimal example of how to integrate DSO from a differen
 
    Note: make sure you have set available DSO_PATH in CMakeLists.txt.
 
-# 3 Usage
+# 2 Usage
 
 For real-time camera input, use these commands in two terminals. 
 
@@ -72,7 +72,7 @@ rosbag play --pause  XXXXX/MH_05_difficult.bag
 
 Note: "--pause" means you can press space key to control the process of bag playing. "XXXXX"means the absolute path to your folder.  
 
-## 3.1 Accessing Data.
+## 3 Accessing Data.
 
 See the DSO Readme. As of now, there is no default ROS-based `Output3DWrapper` - you will have to write your own.
 
